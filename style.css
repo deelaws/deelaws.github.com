@@ -1,0 +1,18 @@
+﻿body {
+    padding: 12px;
+    text-align: center;
+    font-family: 'Consolas', arial, serif;
+    font-size: 1.0em;
+}
+
+h1 {
+    font-family: 'Consolas';
+    font-size: 48px;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+    line-height: 100%;
+    font-size: 1em;
+}
