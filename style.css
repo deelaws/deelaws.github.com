@@ -8,6 +8,7 @@ nav .container {
 
 .my-name {
     font-size:28px;
+    font-family: 'Inconsolata', monospace;
 }
 
 .nav-itemz {
@@ -17,6 +18,11 @@ nav .container {
 .navbar-nav > li{
   margin-left:30px;
   margin-right:30px;
+  font-family: 'Inconsolata', monospace;
+}
+
+.picture {
+    vertical-align: middle;
 }
 
 .starter-template {
