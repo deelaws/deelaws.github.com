@@ -1,20 +1,148 @@
-﻿<html>
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css"
-          href="https://fonts.googleapis.com/css?family=Consolas">
-    <style>
-        body {
-            padding: 12px;
-            text-align: center;
-            font-family: 'Consolas', arial, serif;
-            font-size: 1.0em;
-            display: block;
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Personal Website">
+    <meta name="author" content="Waleed Shahid">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Waleed Shahid</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <!--<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+
+    <!-- Font awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+    <link href="resume.css" rel="stylesheet">
+
+    <style media="screen" type="text/css">
+        @media only screen and (max-width: 1001px) {
+            #header .navbar-inverse ul.nav {
+                float: right;
+                padding-left: 1em;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            #header .navbar-inverse ul.nav {
+                float: left;
+                clear: left;
+                padding-left: 1em;
+            }
+        }
+
+
+        .jobtitle {
+            font-size: 20px;
         }
     </style>
-    <title>Waleed's Resume</title>
 </head>
+
 <body>
-    <div>Waleed Shahid</div>
-    
+
+    <header id="header">
+        <nav class="navbar navbar-light navbar-inverse bg-faded">
+
+            <a class="navbar-brand my-name" href="#"><b> Waleed Shahid </b></br></a>
+            <button class="navbar-toggler hidden-sm-up nav-bar-buttonz" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+                &#9776;
+            </button>
+            <div class="collapse navbar-toggleable-xs navbar-right nav-itemz " id="exCollapsingNavbar2">
+                <ul class="nav navbar-nav pull-left">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Blog </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Resume <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div id="wrap">
+        <div class="container starter-template">
+            <div class="row flex-items-xs-">
+                
+                <h1> Resume</h1>
+            </div>
+            <div class="row flex-items-xs-center">
+                <div class="experience">
+                    <div class="section-banner">
+                        <i class="fa fa-calendar fa-3x" aria-hidden="true"></i>
+                        <p> Experience</p>
+                    </div>
+                    <div class="post-section">
+                        <div class="jobtitle"><p> Microsoft</p></div>
+                        <div class="duration"><p> 2013 - present</p></div>
+                    </div>
+
+                    <div class="info-wrapper">
+                        <div class="description"><p> I'm a software engineer working on the bing team</p></div>
+                        <div class="responsibilites">
+                            <ul class="resp-list">
+                                <li>write code write code write code write code write code write code write code write code write code write code write code write code write code</li>
+                                <li>debug</li>
+                                <li>ship API's</li>
+                                <li>build stuff</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row flex-items-xs-center">
+                <div class="education">
+                    <div class="section-banner">
+                        <i class="fa fa-university fa-3x" aria-hidden="true"></i>
+                        <p> Education</p>
+                    </div>
+                    <div class="info-wrapper">
+                        <div class="jobtitle"><p> University of Toronto</p></div>
+                        <div class="duration"><p> 2007 -2012</p></div>
+
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.container -->
+    </div>
+
+    <div id="footer">
+        <div class="container footer-container">
+            <p class="footer-msg">Powered by Heroku! © Waleed Shahid 2015.</p>
+            <p class="footer-msg">Opinions expressed here are my own and do not represent my employer's view in any way.</p>
+        </div>
+    </div>
+
+    <!--<footer class="footer">
+        <div class="container">
+            <p class="footer-msg">Powered by Heroku! © Waleed Shahid 2015.</p>
+            <p class="footer-msg">Opinions expressed here are my own and do not represent my employer's view in any way.</p>
+        </div>
+    </footer>-->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>-->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
 </body>
 </html>
